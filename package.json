@@ -1,0 +1,18 @@
+{
+  "name": "wfm-test",
+  "version": "1.0.0",
+  "description": "Descobrir rotas do WebSocket do warframe.market",
+  "main": "src/index.js",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "dependencies": {
+    "axios": "^1.7.0",
+    "dotenv": "^16.4.0",
+    "otplib": "^12.0.1",
+    "ws": "^8.18.0"
+  }
+}
